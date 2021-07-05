@@ -1,0 +1,15 @@
+
+h1 {
+    color:rgba(3, 75, 143, 0.856);
+}
+h2 {
+    color: rgba(3, 75, 143, 0.856) ;
+}
+span {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#redes {
+    background-color: rgb(3, 75, 143, 0.856); 
+}

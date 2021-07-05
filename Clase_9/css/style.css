@@ -1,0 +1,1078 @@
+html{
+    position: relative;
+    width: 1024px;
+    height: 1807px;
+    background: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+#head{
+    position: absolute;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+    background: #222222;
+}
+
+.Grandes {
+    /* Grandes ofertas en comederos */
+    position: absolute;
+    width: 138px;
+    height: 12px;
+    left: calc(50% - 138px/2 - 353px);
+    top: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+}
+
+select{
+    border: none !important;
+}
+.Español{
+    /* Español */
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    left: calc(50% - 60px/2 + 350px);
+    top: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+    background: #222222;
+}
+
+.Arg{
+    /*Arg*/
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: calc(50% - 50px/2 + 420px);
+    top: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+    background: #222222;
+}
+
+#Cat_Dog{  
+    /* Rectangle 3 */
+    position: absolute;
+    width: 1024px;
+    height: 62px;
+    left: calc(50% - 1024px/2);
+    top: 20px;
+    background: #F0A83E;
+}
+
+.front{
+    /* Front */
+    position: absolute;
+    width: 57.21px;
+    height: 23px;
+    left: calc(50% - 57.21px/2 - 425.4px);
+    top: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3C2313;
+}
+
+.cat{
+    /* Cat&Dog */
+    position: absolute;
+    width: 96.35px;
+    height: 23px;
+    left: calc(50% - 96.35px/2 - 356.82px);
+    top: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#gato{
+    /* Cat */
+    position: absolute;
+    width: 15.68px;
+    height: 13.12px;
+    left: 40px;
+    top: 43px;
+}
+
+#perro{
+        /* Dog */
+    position: absolute;
+    width: 18.38px;
+    height: 14.38px;
+    left: 188px;
+    top: 43px;
+}
+
+#pcat{
+    /* pawprint 1 */
+    position: absolute;
+    width: 15px;
+    height: 14px;
+    left: calc(50% - 15px/2 + 136.5px);
+    top: 44px;
+    color: #FFFFFF;
+}
+
+#categorias{
+    /* Categorías */
+    position: absolute;
+    width: 64px;
+    height: 14px;
+    left: calc(50% - 64px/2 + 177px);
+    top: 44px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+#ppets{
+    /* pawprint 2 */    
+    position: absolute;
+        width: 15px;
+        height: 14px;
+        left: calc(50% - 15px/2 + 236.5px);
+        top: 44px;
+        color: #FFFFFF;
+}
+
+#pets{
+    /* Pets */
+    position: absolute;
+    width: 27px;
+    height: 14px;
+    left: calc(50% - 27px/2 + 258.5px);
+    top: 44px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+#pnos{
+    /* pawprint 3 */
+    position: absolute;
+    width: 15px;
+    height: 14px;
+    left: calc(50% - 15px/2 + 299.5px);
+    top: 43px;
+    color: #FFFFFF;
+}
+
+#nosotros{
+    /* Nosotros */
+    position: absolute;
+    width: 54px;
+    height: 15px;
+    left: calc(50% - 54px/2 + 335px);
+    top: 43px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+#pcon{
+    /* pawprint 4 */
+    position: absolute;
+    width: 15px;
+    height: 14px;
+    left: calc(50% - 15px/2 + 389.5px);
+    top: 44px;
+    color: #FFFFFF;
+
+}
+#contactanos{
+    /* Contactanos */
+    position: absolute;
+    width: 74px;
+    height: 14px;
+    left: calc(50% - 74px/2 + 435px);
+    top: 44px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+#Comederos{
+    /* foto */
+    position: absolute;
+    width: 1024px;
+    height: 409px;
+    left: 0px;
+    top: 81px;
+    background: url("../img/banner.png");
+    
+}
+
+h3 {
+    /* ¡Es un placer tenerte aquí! */
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    left: 658px;
+    top: 145px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #3C2313;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#come2{
+    /* ¡Comederos en descuento! */
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    left: 740px;
+    top: 205px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3C2313;
+
+}
+
+#come4 {
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 250px;
+    background: #F0A83E;
+    border-radius: 5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#productos{
+    /* Productos Destacados */
+    position: absolute;
+    width: 834px;
+    height: 522px;
+    left: 95px;
+    top: 510px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.patita {
+    /* pawprint 1 */
+    position: absolute;
+    width: 67px;
+    height: 71px;
+    left: calc(50% - 67px/2 + 0.5px);
+    top: 0px;
+    color: #F0A83E;
+    font-size: 50px;
+}
+
+h1 {
+    /* Productos Destacados */
+    position: absolute;
+    width: 406px;
+    height: 47px;
+    left: 309px;    
+    left: calc(50% - 406px/2 + 0.5px);
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+#comed {    
+    /* Comederos */
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 283px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#guion1{
+    /* - */
+    position: absolute;
+    width: 5px;
+    height: 18px;
+    left: 374px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#acc{
+    /* Accesorios */
+    position: absolute;
+    width: 75px;
+    height: 18px;
+    left: 394px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#guion2{
+    /* - */
+    position: absolute;
+    width: 5px;
+    height: 18px;
+    left: 481px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#comidas{
+    /* Comida */
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 499px;    
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#prodPos{
+    /* Cards */
+    position: absolute;
+    width: 834px;
+    height: 312px;
+    left: -100px;
+    top: -500px;
+    align-items: center;
+}
+
+#churrPos{
+    /* Churrasquito */
+    position: absolute;
+    width: 265px;
+    height: 312px;
+    left: 95px;
+    top: 0px;
+
+}
+
+#churrasquito{
+    /* churrasquito */
+    position: absolute;
+    width: 265px;
+    height: 268.86px;
+    left: 0px;
+    top: 720px;
+    background: url("../img/churrasquito.png");
+}
+
+#churrText{
+    /* Juguete Churrasquito */
+    position: absolute;
+    width: 160.54px;
+    height: 19.64px;
+    left: 146.68px;    
+    left: 50.68px;
+    top: 280px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+#churrPrice{
+    /* $150 */
+    position: absolute;
+    width: 38.49px;
+    height: 19.64px;
+    left: 208.26px;
+    left: 112.26px;
+    top: 300px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+
+}
+
+#comPos{
+    /* Comedero */
+    position: absolute;
+    width: 264px;
+    height: 312px;
+    left: 380px;
+    top: 0px;
+}
+
+#comedero{
+    /* comedero */
+    position: absolute;
+    width: 262.03px;
+    height: 266.86px;
+    left: 50px;
+    top: 720px;
+    background: url("../img/comedero.png");
+}
+
+#comTexto{
+    /* Comedero para perro */    
+    position: absolute;
+    width: 159.97px;
+    height: 19.64px;
+    left: 60.41px;
+    top: 280px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+#comPrice{
+    /* $250 */
+    position: absolute;
+    width: 39.15px;
+    height: 19.64px;
+    left: 120.81px;
+    top: 300px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+}
+
+#huesPos{
+    /* Huesito juguete */
+    position: absolute;
+    width: 265px;
+    height: 312px;
+    left: 664px;
+    top: 0px;
+}
+
+#huesito{
+    /* Huesito */
+    position: absolute;
+    width: 265px;
+    height: 268.86px;
+    left: 100px;
+    top: 720px;
+    background: url("../img/Huesito.png");
+}
+
+#huesTexto{
+    /* Juguete Huesito */
+    position: absolute;
+    width: 112.37px;
+    height: 18.97px;
+    left: 74.93px;
+    top: 280px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+#huesPrice{
+    /* $650 */
+    position: absolute;
+    width: 34.61px;
+    height: 18.06px;
+    left: 114.41px;
+    top: 300px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+}
+
+#formulario{
+    /* Formulario */
+    position: absolute;
+    width: 340px;
+    height: 264px;
+    left: 280px;
+    top: 250px;
+}
+
+#contac{
+    /* Contáctanos */
+    position: absolute;
+    width: 143px;
+    height: 35px;
+    left: calc(50% - 143px/2 + 7.5px);
+    top: calc(50% - 84px/2 + 221px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #3C2313;
+
+}
+
+#nombres{
+    /* Rectangle 16 */
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 275.5px);
+
+    background: #3C2313;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+#correo{
+    /* Rectangle 16 */
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 325.5px);
+
+    background: #3C2313;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+#telefono{
+    /* Rectangle 16 */
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 375.5px);
+
+    background: #3C2313;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+#btn1{
+    /* Rectangle 17 */
+    position: absolute;
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: calc(50% - 34px/2 + 453.5px);
+
+    background: #8A8787;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#btn2{
+    /* Rectangle 18 */
+    position: absolute;
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 + 64px);
+    top: calc(50% - 34px/2 + 453.5px);
+
+    background: #F0A83E;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#suscripcion{
+    /* Rectangle 15 */
+    position: absolute;
+    width: 1024px;
+    height: 60px;
+    left: calc(50% - 1024px/2);
+    top: calc(50% - 60px/2 + 522px);
+    top: 936px;
+
+    background: #F0A83E;
+}
+
+#send{
+    /* Send */
+    position: absolute;
+    left: 2.98%;
+    right: 0%;
+    top: 20.65%;
+    bottom: 24.65%;
+    color: #FFFFFF;    
+    font-size: 40px;
+}
+
+#susText{
+    /* Suscríbete para más novedades */
+    position: absolute;
+    width: 288px;
+    height: 23px;
+    left: calc(50% - 280px/2 - 295px);
+    top: 32.65%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+#susInput{
+    /*Input Suscribete*/
+    position: absolute;
+    width: 271px;
+    height: 40px;
+    left: calc(50% - 300px/2 + 254.5px);
+    top: calc(50% - 40px/2 + 575.5px);
+    top: 12.65%;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #A0A0A0;
+}
+
+#susBtn{
+    position: absolute;
+    width: 70px;
+    height: 34px;
+    left: calc(50% - 70px/2 + 430px);
+    top: 20.65%;
+
+    background: #3C2313;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+
+}
+
+
+#Empresa{
+    position: absolute;
+    width: 1024px;
+    height: 284px;
+    left: calc(50% - 1024px/2);
+    bottom: 17px;
+
+    background: #3C2313;
+}
+
+#loc{
+    /* location icon*/
+    position: absolute;
+    left: 4%;
+    right: 0%;
+    top: 15%;
+    bottom: 24.65%;
+    color: #FFFFFF;    
+    font-size: 40px;
+    text-align: center;
+}
+
+#loc2{
+    position: absolute;
+    width: 58px;
+    height: 57px;
+    left: calc(50% - 58px/2 - 409px);
+    bottom: 217px;
+    top: 8%;
+
+    background: #8A8787;
+    border-radius: 29.5px;
+}
+
+
+#location{
+    /* Location */
+    position: absolute;
+    width: 179px;
+    height: 66px;
+    left: 150px;
+    top: 0px;
+}
+
+#localidad{
+    /* Localidad */
+    position: absolute;
+    top:0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+#calle{
+    /* Calle - provincia */
+    position: absolute;
+    top:35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+#phone{
+    /* Phone icon */
+    position: absolute;
+    left: 2.98%;
+    right: 0%;
+    top: 15%;
+    bottom: 24.65%;
+    color: #FFFFFF;    
+    font-size: 40px;    
+    text-align: center;
+}
+
+#phone2{
+    /* Rectangle 22 */
+    position: absolute;
+    width: 58px;
+    height: 57px;
+    left: calc(50% - 58px/2 - 409px);
+    bottom: 131px;
+    top: 38%;
+
+    background: #8A8787;
+    border-radius: 29.5px;
+
+}
+
+#phoneBox{
+    /* Phone */
+    position: absolute;
+    width: 181px;
+    height: 66px;
+    left: 150px;
+    top: 35px;
+}
+#phoneText{
+    /* Teléfono */
+    position: absolute;
+    top:50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+#numPhone{
+    /* Número de teléfono */
+    position: absolute;
+    top: 85px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+#logo{
+    /* Logo */
+    position: absolute;
+    width: 166px;
+    height: 23px;
+    left: 400px;
+    top: 280px;
+}
+
+#catLogo{
+    /* Cat Logo */
+    position: absolute;
+    width: 15.65px;
+    height: 13.12px;
+    left: 360px;
+    top: -143px;
+}
+
+#dogLogo{
+    /* Dog Logo */
+    position: absolute;
+    width: 18.34px;
+    height: 14.38px;
+    left: 505px;
+    top: -143px;
+}
+
+#frontLogo{
+    /* Front logo */
+    position: absolute;
+    width: 57.08px;
+    height: 23px;
+    left: calc(50% - 57.08px/2 + 322.5px);
+    bottom: 148px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+#catDogLogo{
+    /* Cat&Dog */
+    position: absolute;
+    width: 96.13px;
+    height: 23px;
+    left: calc(50% - 96.13px/2 + 389.91px);
+    bottom: 148px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #F0A83E;
+}
+
+#mail{
+    /* Mail icon */
+    position: absolute;
+    left: 2.98%;
+    right: 0%;
+    top: 15%;
+    bottom: 24.65%;
+    color: #FFFFFF;    
+    font-size: 40px;
+    text-align: center;
+}
+
+#mail2{
+    /* Rectangle 24 */
+     position: absolute;
+     width: 58px;
+     height: 57px;
+     left: calc(50% - 58px/2 - 409px);
+     bottom: 45px;
+     top: 68%;
+ 
+     background: #8A8787;
+     border-radius: 29.5px;
+ 
+ }
+
+ #mailBox{
+     /* Correo */
+    position: absolute;
+    width: 259px;
+    height: 66px;
+    left: 150px;
+    top: 70px;
+ }
+
+ #mailText{
+    /* Teléfono */
+    position: absolute;
+    top:100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+#mailDir{
+    /* Número de teléfono */
+    position: absolute;
+    top: 135px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+#pie{
+    position: absolute;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    bottom: 0px;
+    background: #222222;
+}
+
+.pie2{
+    position: absolute;
+    width: 186px;
+    height: 12px;
+    left: calc(50% - 186px/2);
+    bottom: 4px;
+    top: -7px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
