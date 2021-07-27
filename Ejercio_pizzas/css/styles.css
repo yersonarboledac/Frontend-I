@@ -1,0 +1,174 @@
+body{
+    background-color: #E5E5E5;
+   
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 40px;
+    justify-content:space-between;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    background-color: #222222;
+}
+
+a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+
+
+    color: #f3f3f3;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    width: 270px;
+    
+    
+}
+
+.nav2{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+
+
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+
+
+
+.box{
+    
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.box2{
+    
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: white;
+    width: 491px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 50px;
+    height: 200px;
+    align-items: center;
+    background-color: #222222;
+
+}
+
+.spam{
+    position: absolute;
+    width: 350.64px;
+    height: 28px;
+    left: 170px;
+    top: 270px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+
+i{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28p
+}
+
+.rec{
+   
+        width: 100px; 
+        height: 100px; 
+        background: #428bca;
+   
+}
+
+.c{
+    left: 900px;
+
+}
+
+.n{
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 800px;
+    top: 350px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #222222;
+
+}
+
+.top{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    width: 300px;
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+}

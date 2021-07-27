@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header div.box1 {
+    background: black;
+    color: rgba(228, 220, 220, 0.911);
+    padding: 0.5%;
+}
+header div.box2 img {
+    width: 10%;
+    background: orange;
+}
+header div.box2 {
+    background-image: url(../img/box2.jpg);
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 0.5%;
+}
+header div.box2 h1 {
+    margin-left: 0.5%;
+}
+section {
+    background-image: url(../img/section1.jpg);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+article {
+    background: white;
+    margin-top: 2% ;
+    margin-bottom: 2%;
+    padding: 10%;
+    border-radius: 3%;
+}
+article div.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+article form input {
+    margin: 2%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1.5%;
+}

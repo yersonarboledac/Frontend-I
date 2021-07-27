@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header div.box1 {
+    background: black;
+    color: rgba(228, 220, 220, 0.911);
+    padding: 0.5%;
+}
+header div.box2 img {
+    width: 10%;
+    background: orange;
+}
+header div.box2 {
+    background-image: url(../img/box2.jpg);
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 0.5%;
+}
+header div.box2 h1 {
+    margin-left: 0.5%;
+}
+header div.box3 {
+    background:rgb(59, 59, 61);
+    padding: 0px 40px 0px 0px;
+}
+header div.box3 nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header div.box3 nav ul{
+    display: flex;   
+}
+header div.box3 nav ul li {
+    margin: 9px;
+    font-weight: 500;
+}
+header div.box3 nav li a {
+    text-decoration: none;
+    color: white
+}
+header div.box3 nav li a:hover {
+    background: rgb(109, 108, 108);
+    transition: 1s;
+}
+
+section {
+    background-image: url(../img/section1.jpg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article {
+       background: white;
+       width: 80%;
+}
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1.5%;
+}
+@media (max-width: 800px) {
+    article {
+        width: 40%;
+    }
+}
+@media (max-width: 400px) {
+    article {
+        width: 50%;
+    }
+}
+article.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2%;
+    border-radius: 10px;
+    margin: 1%;
+    width: 60%;
+}
+article.form h2 {
+    text-align: center;
+}
+div.form01 {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+div.pros1 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.form02 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+div.form03 {
+    display: flex;
+    flex-direction: row;
+}
+
+input.Description {
+    width: 50%;
+    height: 200px;
+}
+div.form4 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+div.form4 span {
+    font-weight: 900;
+}
+div.pros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.form label {
+    display: flex;
+}
+input {
+    height: 30px;
+    border-radius: 6px;
+    margin: 2%;
+}
+div.boton {
+  text-align: center;
+}
+div.boton input {
+    width: 30%;
+    font-weight:900;
+    background: rgb(59, 59, 61);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

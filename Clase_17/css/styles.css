@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header div.box1 {
+    background: black;
+    color: rgba(228, 220, 220, 0.911);
+    padding: 0.5%;
+}
+header div.box2 img {
+    width: 10%;
+    background: orange;
+}
+header div.box2 {
+    background-image: url(../img/box2.jpg);
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 0.5%;
+}
+header div.box2 h1 {
+    margin-left: 0.5%;
+}
+header div.box3 {
+    background:rgb(59, 59, 61);
+    padding: 0px 40px 0px 0px;
+}
+header div.box3 nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header div.box3 nav ul{
+    display: flex;   
+}
+header div.box3 nav ul li {
+    margin: 9px;
+    font-weight: 500;
+}
+header div.box3 nav li a {
+    text-decoration: none;
+    color: white
+}
+header div.box3 nav li a:hover {
+    background: rgb(109, 108, 108);
+    transition: 1s;
+}
+
+section {
+    background-image: url(../img/section1.jpg);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+div.icon {
+    color: blanchedalmond;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    width: 30px;
+}
+article {
+    background: white;
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 8px;
+}
+article div.img {
+    background-image: url(../img/fondo.png);
+}
+article img {
+    width: 50%;
+    margin-left: 25%;
+}
+article div.text {
+    padding: 2%;
+    background: rgb(247, 247, 247);
+    width: 90%;
+}
+article div.text h2 {
+    text-align: center;
+    font-style: italic;
+}
+div.boton {
+    background: rgb(182, 176, 176);
+    padding: 1%;
+    margin: 2%;
+}
+div.boton a {
+    text-decoration: none;
+    color: black;
+}
+div.boton a:hover {
+    background: rgb(109, 108, 108);
+    transition: 1s;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1.5%;
+}
+@media (max-width: 800px) {
+    article {
+        width: 40%;
+    }
+}
+@media (max-width: 400px) {
+    article {
+        width: 50%;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+

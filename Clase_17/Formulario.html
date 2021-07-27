@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/1styles.css">
+    <title>Mi primer ecommerce</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="box1">
+            <span>¡20% de descuento en todos los productos!</span>
+                </div>
+               <div class="box2">
+            <img src="img/logo.png" alt="logo">
+             <h1>Ranieret</h1>
+        </div>
+        <div class="box3">
+            <nav>
+                <ul type="none">
+                    <li><a href="#">Contacto</a></li> 
+                    <li><a href="#">Registrarme</a></li> 
+                    <li><a href="#">Ingresar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section>
+      <article class="form">
+          <div>
+              <h2>¡Añadi tu super!</h2>
+              <p>Agrega tu personaje favorito completando las opciones.</p>
+          </div>
+        <div class="form">
+            <form action="base.datos.html" method="POST" enctype="multipart/form-data"> <!--enctype y valor es requeido para subir archivos max 300mb-->
+                
+                
+                <div class="form01">
+                 <div class="pros1"> 
+                <label for="nombre">*Nombre</label>
+                <input type="text" name="*Nombre" id="nombre"></div>  
+                <div class="pros1">
+                <label for="Especie">*Especie</label>
+                <input type="text" name="*Especie" placeholder="Especie" id="Especie"></div>
+                <!--<input type="submit" value="Añadir"> :no se le puede colocar imagen de fondo-->
+                <!--<button type="submit"><img src="img/loupe.png" alt="lupa" width="15" height="12"></button>
+                agrega un boton tipo submit con la posibilidad de añadir una imagen de fondo-->
+                </div> 
+
+                
+
+                <div class="form02">
+                <div class="pros1">
+                <label for="Fecha">Fecha</label>
+                <input type="date" nane="Fecha" id="Fecha"></div>
+                <div class="pros1">
+                <label for="Sube un archivo">Agregar foto</label>
+                <input type="file" name="Archivo subido"></div><!--<input type="submit" value="Enviar datos">--> 
+                </div>
+                
+                <div class="form03">
+                 <input class="Description" type="text" name="Descripcion" placeholder="Descripcion">
+                 <div class="form4">
+                     <span>Poderes</span>
+                 <div class="pros"><input type="checkbox" name="casilla"><label for="Volar">volar</label></div>
+                 <div class="pros"><input type="checkbox" name="casilla"><label for="Inteligencia">Super inteligencia</label></div>
+                 <div class="pros"><input type="checkbox" name="casilla"><label for="Vista">Vista de rayo laser</label></div>
+                 <div class="pros"><input type="checkbox" name="casilla"><label for="Billetera">Billetera gorda</label></div>
+                 <hr>
+                 <span>Tipo de personaje</span>
+                 <div class="pros"><input type="radio" name="boton" value="1"><label for="Heroe/Heroina">Heroe/Heroina</label></div>
+                 <div class="pros"><input type="radio" name="boton" value="2"><label for="Villano/Villana">Villano/Villana</label></div>
+                </div>
+                </div>
+                 <div class="boton">
+                 <input type="submit" value="Añadir">
+                </div>
+
+                </div>
+            </form>
+        </div>
+        </article>
+    </section>
+</main>
+<footer>
+    <span>Todos los derechos reservados a Santiago Arciniegaz</span>
+</footer>
+</div>
+</body>
+</html>
